@@ -47,7 +47,7 @@ class _SelectLocationPageState extends State<SelectLocationPage> {
             urlTemplate:
                 'https://api.mapbox.com/styles/v1/mapbox/streets-v12/tiles/256/{z}/{x}/{y}@2x?access_token={accessToken}',
             additionalOptions: const {
-              'accessToken': 'sk.eyJ1IjoianVhbmxvcGV6MDAiLCJhIjoiY21hZWNjMzUzMDY1NDJucHJkcGM2YXRzZyJ9.iISlOhAPSZLJ6SG8PGhoRg',
+              'accessToken': 'Tu token de Mapbox aquí',
             },
           ),
           MarkerLayer(

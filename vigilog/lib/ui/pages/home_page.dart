@@ -6,8 +6,6 @@ import 'package:vigilog/data/incident.dart';
 import 'package:vigilog/logic/incident_map_controller.dart';
 import 'package:vigilog/ui/pages/add_incident_page.dart';
 
-//  api: sk.eyJ1IjoianVhbmxvcGV6MDAiLCJhIjoiY21hZWNjMzUzMDY1NDJucHJkcGM2YXRzZyJ9.iISlOhAPSZLJ6SG8PGhoRg
-
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
 
@@ -127,7 +125,7 @@ class _HomePageState extends State<HomePage> {
                       'https://api.mapbox.com/styles/v1/mapbox/streets-v12/tiles/256/{z}/{x}/{y}@2x?access_token={accessToken}',
                   additionalOptions: const {
                     'accessToken':
-                        'sk.eyJ1IjoianVhbmxvcGV6MDAiLCJhIjoiY21hZWNjMzUzMDY1NDJucHJkcGM2YXRzZyJ9.iISlOhAPSZLJ6SG8PGhoRg',
+                        'Tu token de Mapbox aquí',
                   },
                 ),
 
